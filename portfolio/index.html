@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Portfolio - PulseTCG Docs</title>
+    <title>Portfolio - MkLorum</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Portfolio";
-        var mkdocs_page_input_path = "portfolio.md";
-        var mkdocs_page_url = null;
+        var properdocs_page_name = "Portfolio";
+        var properdocs_page_input_path = "portfolio.md";
+        var properdocs_page_url = null;
       </script>
     
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> PulseTCG Docs
+          <a href=".." class="icon icon-home"> MkLorum
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
@@ -134,7 +134,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">PulseTCG Docs</a>
+          <a href="..">MkLorum</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -159,6 +159,7 @@
 <p>Allows you to choose between all portfolios, just a single portfolio or create a new portfolio.</p>
 <h3 id="share">Share</h3>
 <p>Allows you to share your portfolio to others. </p>
+<p><img alt="PortfolioSharing" src="../img/PortfolioShare.png" /></p>
 <p><code>Enable Public Sharing</code> - Quickly enable or disable Public Sharing</p>
 <p><code>Display Name</code> - Name of the Portfolio on the shared page</p>
 <p><code>Portfolios to Share</code> - Select which of your Portfolios to share</p>
@@ -166,8 +167,8 @@
 <table>
 <thead>
 <tr>
-<th>First Header</th>
-<th>Second Header</th>
+<th>Type</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
@@ -189,9 +190,11 @@
 <p><code>Bio</code> - Add a short bio to be shared in your portfolio</p>
 <p><code>Weclome Message</code> - Add a Welcome Message for your portfolio visitors</p>
 <h3 id="manage">Manage</h3>
+<p><img alt="PortfolioManage" src="../img/PortfolioManage.png" /></p>
 <p>This allows you to bulk manage your portfolio including changing purchase dates, quantities, purchase price and add notes. </p>
 <p>You can also mass delete and move entries to other portfolios. </p>
 <h2 id="values">Values</h2>
+<p><img alt="PortfolioGraph" src="../img/PortfolioGraph.png" /></p>
 <h3 id="market-value">Market Value</h3>
 <p>Shows the entire Market Value of your portfolio at current prices</p>
 <h3 id="invested">Invested</h3>
@@ -204,6 +207,7 @@
 <h2 id="graph">Graph</h2>
 <p>Shows the value over time of your products, including changes based on sales/purchases as well as market prices</p>
 <h2 id="insights">Insights</h2>
+<p><img alt="PortfolioInsights" src="../img/PortfolioInsights.png" /></p>
 <h3 id="raw-cardsgraded-cardssealed-product">Raw Cards/Graded Cards/Sealed Product</h3>
 <p>Shows the breakdown of your Portfolio split by type.</p>
 <p>Each type will show it's own figures, most valuable (Single Price), Largest Holding (Qty x Price) and Top Movers</p>
@@ -213,7 +217,32 @@
 <p>Breakdown by Market Price range</p>
 <h3 id="performance-split">Performance Split</h3>
 <p>Split of how your portfolio is performing</p>
-<p>(Strong / etc need to know how this calced)</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Perfomance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Losing</td>
+<td>Greater than 5% Loss</td>
+</tr>
+<tr>
+<td>Flat</td>
+<td>Between 5% loss and 5% gain</td>
+</tr>
+<tr>
+<td>Gaining</td>
+<td>Between 5% gain and 20% gain</td>
+</tr>
+<tr>
+<td>Strong</td>
+<td>Greater than 20% gain</td>
+</tr>
+</tbody>
+</table>
 <h2 id="items">Items</h2>
 <h3 id="advanced-analytics">Advanced Analytics</h3>
 <p>Information needed</p>
@@ -229,6 +258,7 @@
 <h3 id="table">Table</h3>
 <p>The table shows your entire portfolio broken down by Single Cards, Graded and Sealed. </p>
 <p>You can edit single cards here as well</p>
+<p><img alt="PortfolioList" src="../img/PortfolioList.png" /></p>
 <p><code>Set Custom Market Price</code> - Allows you to set your own market price. Useful for items which don't yet have a market or have old/low sales data</p>
 <p><code>Convert to Graded</code> - Convert the single card to a graded card, chosing your Grading Company, Grade and Grading Cost. This then moves the item to your Graded portfolio and adds the grading cost to the raw cost. </p>
 <p><code>Change Condition</code> - Change the condition of a single card</p>
@@ -247,7 +277,7 @@
     <!-- Copyright etc -->
   </div>
 
-  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Built with <a href="https://properdocs.org/">ProperDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
           
         </div>
